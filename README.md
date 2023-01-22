@@ -19,8 +19,13 @@ conda deactivate
 
 pip install -r requirements.txt
 
-
+git status 
+git config --global user.name
+git config --global user.email "<Change email or message>"
 
 GIT Process -
-1. Add git add <filename> // git add . (add all file)
-2. 
+1. Add -> git add <filename> // git add . (add all file)
+2. Commit -> (From local to git model) git commit -a // git commit -m "message"
+3. Push -> 
+    a. remote
+    b. branch
